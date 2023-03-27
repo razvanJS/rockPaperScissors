@@ -1,0 +1,102 @@
+body {
+    background-color: rgb(21, 85, 106);
+    width: 1200px;
+    height: 900px;
+  
+}
+#color{
+    margin-left:73em;
+    padding:-3px -300px -500px -600px;
+    opacity:0.3 ;
+    background-color:gray;
+    color:blue ;
+
+}
+#color:hover{
+    box-shadow:3px 2px 30px rgb(22, 234, 65);
+    opacity:0.8 ;
+    color:red ;
+}
+
+#imageP {
+    border: 4px groove blue;
+    width: 340px;
+    height: 300px;
+    border-radius: 50%;
+    opacity: 0.8;
+}
+#imageP:hover{
+    box-shadow:4px 8px 100px blue;
+
+}
+
+.player {
+    margin: 20px 100px;
+    padding: 30px;
+}
+
+#playerEl {
+    font-size: 2em;
+    color: black;
+    margin: 20px 100px;
+    border: 2px groove blue;
+    width: 129px;
+    background-color: blue;
+    opacity: 0.5;
+    border-radius:75% ;
+    box-sizing:border-box;
+   
+}
+
+
+#imageC {
+    border: 4px groove red;
+    width: 340px;
+    height: 300px;
+    border-radius: 50%;
+    opacity: 0.8;
+}
+#imageC:hover{
+    box-shadow:4px 8px 100px red;
+
+}
+
+#computerEl {
+    font-size: 2em;
+    color: black;
+    margin-top:-0.5em ;
+    margin-left:3.2em ;
+    border: 3px groove red;
+    box-sizing:content-box;
+    width: 120px;
+    background-color: red;
+    opacity: 0.5;
+    border-radius:75% ;
+}
+.computer {
+    
+    margin-top: -30.2em;
+    margin-left: 45em;
+    padding: 30px;
+}
+#rockPaper{
+    padding:1px ;
+    color:blue ;
+    background-color:gray ;
+    opacity:0.7 ;
+}
+
+#again{
+    background-color:gray;
+    color:blue;
+    opacity:0.4;
+    font-size:1.2em ;
+    margin:20px;
+    border-radius:50%;
+
+}
+#again:hover{
+    box-shadow:3px 2px 30px rgb(22, 234, 65);
+    opacity:0.7 ;
+    color:red ;
+}
